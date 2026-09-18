@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - tool.qmd
+    - examples.qmd
+    - about.qmd
+
+website:
+  title: "Design For Impact"
+  site-url: "https://jettpalmer.github.io/design-for-impact/"
+  search: false
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: tool.qmd
+        text: Tool
+      - href: examples.qmd
+        text: Examples
+      - href: about.qmd
+        text: About
+  page-footer:
+    left: "© 2026 Jett Palmer"
+    right: "This website was developed with the assistance of AI. Content was reviewed, edited, and curated by the author."
+
+format:
+  html:
+    css: styles.css
+    toc: false
+    anchor-sections: false
+    smooth-scroll: false
