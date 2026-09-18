@@ -23,8 +23,8 @@ website:
       - href: about.qmd
         text: About
   page-footer:
-    left: "© 2026 Jett Palmer"
-    right: "This website was developed with the assistance of AI. Content was reviewed, edited, and curated by the author."
+    center: |
+      © 2026 Jett Palmer · This website was developed with the assistance of AI. Content was reviewed, edited, and curated by the author.
 
 format:
   html:

@@ -221,7 +221,7 @@ button:focus-visible {
 .page-content h2 { font-size: 1.8rem; margin-top: 2.5rem; }
 .page-content ul { color: var(--ink-soft); padding-left: 1.2rem; }
 
-.page-footer { background: #fff; border-top: 1px solid var(--rule); color: var(--ink-soft); font-size: 0.78rem; line-height: 1.45; padding: 2.5rem 1rem; }
+.page-footer { background: #fff; border-top: 1px solid var(--rule); color: var(--ink-soft); font-size: 0.78rem; line-height: 1.45; padding: 2.5rem 1rem; text-align: center; }
 .page-footer .nav-footer { max-width: 1180px; }
 .page-footer a { color: var(--ink-soft); }
 
@@ -252,8 +252,7 @@ button:focus-visible {
   .lifecycle li:last-child { grid-column: auto; }
   .section-close { align-items: start; flex-direction: column; gap: 1rem; }
   .resource-split { gap: 2.2rem; }
-  .page-footer { text-align: left; }
-  .page-footer .nav-footer { align-items: start; flex-direction: column; }
+  .page-footer .nav-footer { align-items: center; }
 }
 
 @media (prefers-reduced-motion: reduce) {
