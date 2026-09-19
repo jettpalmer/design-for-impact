@@ -19,9 +19,10 @@ A collaborative scaffold for maximizing and communicating impact in statistical 
 
 </p>
 
-::: {.hero-actions aria-label="Primary actions"}
-<a class="button button-primary" href="files/design-for-impact-tool-and-guide.pdf" download>Download the Tool + Guide</a> <a class="button button-secondary" href="#workflow">Learn More</a>
-:::
+<div class="hero-actions" aria-label="Primary actions">
+<a class="button button-primary" href="files/design-for-impact-tool-and-guide.pdf" download>Download the Tool + Guide</a>
+<a class="button button-secondary" href="#workflow">Learn More</a>
+</div>
 ::::
 
 <figure class="tool-preview">
@@ -30,7 +31,7 @@ A collaborative scaffold for maximizing and communicating impact in statistical 
 <img src="images/tool-preview.png" alt="Preview of the blank Design For Impact worksheet, with fields for vision, partnership, impact, analysis pathway, and narrative."/>
 :::
 
-<figcaption>A shared workspace for the conversations that shape a project.</figcaption>
+<figcaption>A fillable guide for planning, revisiting, and communicating impact throughout a statistical engagement.</figcaption>
 
 </figure>
 ::::::
@@ -78,8 +79,6 @@ Qualitative
 
 </p>
 
-<h3>Alignment</h3>
-
 </li>
 
 <li class="flow-arrow" aria-hidden="true">
@@ -102,8 +101,6 @@ Quantitative
 
 </p>
 
-<h3>Intentionality</h3>
-
 </li>
 
 <li class="flow-arrow" aria-hidden="true">
@@ -125,8 +122,6 @@ Q<sub>3</sub>
 Qualitative
 
 </p>
-
-<h3>Translation</h3>
 
 </li>
 
@@ -161,63 +156,9 @@ Qualitative
 ::: section-close
 <p>The tool turns these principles into five practical components.</p>
 
-<a class="text-action" href="tool.qmd">Explore the Tool [→]{aria-hidden="true"}</a>
+<a class="text-action" href="tool.qmd#five-components">Explore the Tool [→]{aria-hidden="true"}</a>
 :::
 ::::::
-
-</section>
-
-<section class="section implementation-section" aria-labelledby="implementation-heading">
-
-:::: page-shell
-::: {.section-intro .split-heading}
-<h2 id="implementation-heading">
-
-A scaffold, not a script.
-
-</h2>
-
-<p>Use the tool as a shared document between you and your collaborator, or adapt it to your needs.</p>
-:::
-
-<ol class="lifecycle">
-
-<li>
-
-<h3>Prepare</h3>
-
-<p>Review the guide and develop questions before kickoff.</p>
-
-</li>
-
-<li>
-
-<h3>Align</h3>
-
-<p>Establish Q<sub>1</sub> with collaborators and confirm shared understanding.</p>
-
-</li>
-
-<li>
-
-<h3>Analyze</h3>
-
-<p>Develop Q<sub>2</sub> and revisit it as evidence or constraints change.</p>
-
-</li>
-
-<li>
-
-<h3>Translate</h3>
-
-<p>Use Q<sub>3</sub> to shape decision-ready closeout communication.</p>
-
-</li>
-
-</ol>
-
-<a class="text-action" href="tool.qmd">See Implementation Guidance [→]{aria-hidden="true"}</a>
-::::
 
 </section>
 
@@ -241,7 +182,7 @@ See Design For Impact in action.
 
 <p>Connecting customer-segmentation analysis to budget allocation, campaign planning, and conversion.</p>
 
-<a class="text-action" href="examples.qmd">View Example [→]{aria-hidden="true"}</a>
+<a class="text-action" href="examples.qmd#marketing-campaign-optimization">View Example [→]{aria-hidden="true"}</a>
 
 </article>
 
@@ -251,7 +192,7 @@ See Design For Impact in action.
 
 <p>Using complex findings to guide future research and the design of behavioral interventions.</p>
 
-<a class="text-action" href="examples.qmd">View Example [→]{aria-hidden="true"}</a>
+<a class="text-action" href="examples.qmd#environmental-attitudes-and-behavior">View Example [→]{aria-hidden="true"}</a>
 
 </article>
 :::
@@ -277,7 +218,7 @@ Resources for applying and teaching Design For Impact.
 
 <p>Integrate Design For Impact into scoping conversations, project check-ins, analysis planning, and closeout without replacing your existing workflow.</p>
 
-<a class="text-action" href="tool.qmd">Use the Tool [→]{aria-hidden="true"}</a>
+<a class="text-action" href="tool.qmd#flexible-implementation">Use the Tool [→]{aria-hidden="true"}</a>
 
 </article>
 

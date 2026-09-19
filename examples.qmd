@@ -2,20 +2,150 @@
 title: "Examples"
 ---
 
-<div class="page-shell page-content">
+<section class="examples-page-hero" aria-labelledby="examples-page-heading">
 
-# Examples
+::: page-shell
 
-<p class="lede">Illustrative collaborations will show how Design For Impact adapts to distinct professional and academic settings.</p>
+<h1 id="examples-page-heading">Design For Impact in action.</h1>
 
----
+<p class="lede">These fictitious examples show how the same five components can support collaborations with different goals, stakeholders, and definitions of impact. They are illustrations, not templates: each project should adapt the tool to its own context.</p>
 
-## Marketing Campaign Optimization
+<a class="text-action" href="tool.qmd#five-components">Review the Tool and Implementation Guide [→]{aria-hidden="true"}</a>
 
-This forthcoming example connects customer-segmentation analysis to budget allocation, campaign planning, and conversion.
+:::
 
-## Environmental Attitudes and Behavior
+</section>
 
-This forthcoming example uses complex findings to guide future research and the design of behavioral interventions.
+<section class="example-feature" id="marketing-campaign-optimization" aria-labelledby="marketing-heading">
+
+::: page-shell
+
+<div class="example-heading">
+<h2 id="marketing-heading">Marketing Campaign Optimization</h2>
+
+<p>A statistical practitioner is helping a marketing team identify customer segments for an upcoming campaign and decide how to allocate its budget.</p>
+</div>
+
+<div class="example-component-grid" aria-label="Marketing Campaign Optimization components">
+
+<article class="example-component example-vision">
+<h3>Vision <span class="component-stage">— Q<sub>1</sub></span></h3>
+
+<p>Maximize customer engagement and lifetime value through more personalized marketing strategies.</p>
+</article>
+
+<article class="example-component example-impact">
+<h3>Impact <span class="component-stage">— Q<sub>1</sub></span></h3>
+
+<p>Help the marketing team allocate its budget across customer segments to maximize conversion.</p>
+</article>
+
+<article class="example-component example-partnership">
+<h3>Partnership <span class="component-stage">— Q<sub>1</sub></span></h3>
+
+<p>Deliver within two weeks, before the next campaign-planning cycle begins.</p>
+</article>
+
+<article class="example-component example-pathway">
+<h3>Analysis Pathway <span class="component-stage">— Q<sub>2</sub></span></h3>
+
+<p>Fit a logistic model to estimate conversion probability across customer segments, accompanied by interpretable visualizations that guide budgetary decisions.</p>
+</article>
+
+<article class="example-component example-narrative">
+<h3>Narrative <span class="component-stage">— Q<sub>3</sub></span></h3>
+
+<p>The model identified a customer segment with a significantly higher likelihood of conversion. Marketing shifted its budget toward this segment, increasing overall conversion from 8% to 14% and generating $86,000 in additional revenue.</p>
+</article>
 
 </div>
+
+<p class="example-editorial-note"><strong>What this illustrates:</strong> The business goal, stakeholder decision, project timeline, analysis, and final result remain connected throughout the engagement.</p>
+
+:::
+
+</section>
+
+<section class="example-feature academic-example" id="environmental-attitudes-and-behavior" aria-labelledby="environmental-heading">
+
+::: page-shell
+
+<div class="example-heading">
+<h2 id="environmental-heading">Environmental Attitudes and Behavior</h2>
+
+<p>Environmental psychology researchers and a statistical collaborator are studying why environmental concern does not always translate into sustainable behavior.</p>
+</div>
+
+<dl class="example-metadata">
+<div>
+<dt>Project</dt>
+<dd>Environmental concern and sustainable behavior</dd>
+</div>
+<div>
+<dt>Collaborators</dt>
+<dd>Environmental psychology researchers and statistical collaborator</dd>
+</div>
+<div>
+<dt>Engagement period</dt>
+<dd>2026 academic year</dd>
+</div>
+<div>
+<dt>Version</dt>
+<dd>1</dd>
+</div>
+</dl>
+
+<div class="example-component-grid" aria-label="Environmental Attitudes and Behavior components">
+
+<article class="example-component example-vision">
+<h3>Vision <span class="component-stage">— Q<sub>1</sub></span></h3>
+
+<p>Advance understanding of why environmental concern does not always translate into sustainable behavior.</p>
+</article>
+
+<article class="example-component example-impact">
+<h3>Impact <span class="component-stage">— Q<sub>1</sub></span></h3>
+
+<p>Determine whether the attitude-behavior gap depends on context, measurement, and access to sustainable choices, helping researchers design future studies and more effective interventions.</p>
+</article>
+
+<article class="example-component example-partnership">
+<h3>Partnership <span class="component-stage">— Q<sub>1</sub></span></h3>
+
+<p>All collaborators will appear as co-authors on a paper targeting environmental psychology journals. The team agrees that null or mixed findings remain valuable and will still be submitted for publication.</p>
+</article>
+
+<article class="example-component example-pathway">
+<h3>Analysis Pathway <span class="component-stage">— Q<sub>2</sub></span></h3>
+
+<p>Use multilevel regression to determine how the relationship between environmental concern and behavior varies by context, measurement approach, and access to sustainable choices. Compare results across measures and settings to help researchers identify priorities for future studies and promising targets for behavioral interventions.</p>
+</article>
+
+<article class="example-component example-narrative">
+<h3>Narrative <span class="component-stage">— Q<sub>3</sub></span></h3>
+
+<p>Environmental concern was more strongly associated with self-reported than observed behavior, particularly when sustainable alternatives were difficult to access. Researchers can prioritize access and measurement in their next study and design interventions that reduce practical barriers rather than focusing only on attitudes.</p>
+</article>
+
+</div>
+
+<p class="example-editorial-note"><strong>What this illustrates:</strong> Academic impact may involve contributions to a body of knowledge, decisions about what to study next, and the design of future interventions rather than an immediate organizational outcome.</p>
+
+:::
+
+</section>
+
+<section class="examples-closing" aria-labelledby="examples-closing-heading">
+
+::: page-shell
+
+<h2 id="examples-closing-heading">Apply the process to your own collaboration.</h2>
+
+<div class="closing-actions">
+<a class="button button-primary" href="files/design-for-impact-tool-and-guide.pdf" download>Download the Tool + Guide</a>
+<a class="button button-secondary" href="tool.qmd#flexible-implementation">See Implementation Guidance</a>
+</div>
+
+:::
+
+</section>

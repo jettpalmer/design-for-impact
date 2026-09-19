@@ -2,16 +2,81 @@
 title: "About"
 ---
 
-<div class="page-shell page-content">
+<section class="about-page-hero" aria-labelledby="about-page-heading">
 
-# About Design For Impact
+::: page-shell
 
-<p class="lede">Design For Impact is a collaborative scaffold for helping statistical collaborators maximize and communicate the value of their work.</p>
+<h1 id="about-page-heading">About Design For Impact</h1>
 
----
+<p class="lede">Design For Impact is a collaborative scaffold for helping statistical practitioners and domain experts align on purpose, connect analytical choices to stakeholder needs, and communicate evidence in ways that support action.</p>
 
-## The project
+<p class="about-opening">The project was created by Jett Palmer through graduate research in statistics at California Polytechnic State University, San Luis Obispo. It responds to a practical challenge in statistical collaboration: technically sound analysis does not create impact automatically. Impact also requires alignment, intentionality, and translation.</p>
 
-The project brings alignment, intentionality, and translation into the everyday conversations that shape evidence-based work. More about its development, evaluation, and research foundations will be shared here in a future release.
+:::
 
+</section>
+
+<section class="about-section" aria-labelledby="development-heading">
+
+::: page-shell
+
+<h2 id="development-heading">Developed through research and iteration.</h2>
+
+<div class="about-copy">
+<p>Design For Impact began as an exploration of how statistical collaborators could plan for and evaluate impact more explicitly. The process model and artifact were refined through feedback from statistics students and practitioners working in academia and industry. Their experiences helped clarify the tool’s benefits, limitations, component definitions, and implementation guidance.</p>
+
+<p>The current version is intended to be flexible. It can serve as a shared project document, supplement an existing collaborative workflow, or provide a mental model for practitioners who already use similar habits informally.</p>
 </div>
+
+:::
+
+</section>
+
+<section class="about-section about-creator-section" aria-labelledby="creator-heading">
+
+::: page-shell
+
+<h2 id="creator-heading">About the creator</h2>
+
+<div class="about-copy">
+<p>Jett Palmer is a statistics researcher and consultant whose work focuses on statistical collaboration, organizational problem solving, and translating evidence into action. He created Design For Impact as part of his graduate research at Cal Poly, San Luis Obispo.</p>
+
+<a class="text-action" href="https://jettpalmer.github.io">Visit Jett’s website [→]{aria-hidden="true"}</a>
+</div>
+
+:::
+
+</section>
+
+<section class="about-section forthcoming-section" aria-labelledby="forthcoming-heading">
+
+::: page-shell
+
+<h2 id="forthcoming-heading">Forthcoming</h2>
+
+<ul class="forthcoming-list">
+<li>Master’s thesis on the development and evaluation of Design For Impact</li>
+<li>Journal manuscript for the <em>Journal of Statistics and Data Science Education</em></li>
+<li>Design For Impact short course and instructional materials</li>
+</ul>
+
+<p class="about-acknowledgment">The development of Design For Impact was supported by Heather Smith and Eric Vance.</p>
+
+:::
+
+</section>
+
+<section class="about-closing" aria-labelledby="about-closing-heading">
+
+::: page-shell
+
+<h2 id="about-closing-heading">Explore Design For Impact</h2>
+
+<div class="closing-actions">
+<a class="text-action" href="tool.qmd">View the Tool [→]{aria-hidden="true"}</a>
+<a class="text-action" href="examples.qmd">See the Examples [→]{aria-hidden="true"}</a>
+</div>
+
+:::
+
+</section>
