@@ -240,11 +240,7 @@ Resources for applying and teaching Design For Impact.
 
 :::: {.page-shell .evaluation-layout}
 ::: {}
-<h2 id="evaluation-heading">
-
-Evaluated by students and practitioners.
-
-</h2>
+<h2 id="evaluation-heading">Evaluated by students and practitioners.</h2>
 
 <p>Design For Impact was refined using feedback from students and practitioners from industry and academia.</p>
 :::

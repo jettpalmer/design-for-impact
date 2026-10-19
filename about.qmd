@@ -8,7 +8,7 @@ title: "About"
 
 <h1 id="about-page-heading">About Design For Impact</h1>
 
-<p class="lede">Design For Impact is a collaborative scaffold for helping statistical practitioners and domain experts align on purpose, connect analytical choices to stakeholder needs, and communicate evidence in ways that support action.</p>
+<p class="lede">A practical scaffold for alignment, intentionality, and translation in statistical collaboration.</p>
 
 <p class="about-opening">The project was created by Jett Palmer through graduate research in statistics at California Polytechnic State University, San Luis Obispo. It responds to a practical challenge in statistical collaboration: technically sound analysis does not create impact automatically. Impact also requires alignment, intentionality, and translation.</p>
 

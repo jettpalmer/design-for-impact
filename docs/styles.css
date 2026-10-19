@@ -261,11 +261,12 @@ button:focus-visible {
 .implementation-note { color: var(--ink) !important; font-size: 0.96rem; font-weight: 650; margin-top: 2.2rem; }
 
 .project-sequence { counter-reset: project-stage; list-style: none; margin: 3.5rem 0 0; padding: 0; }
-.project-sequence li { border-top: 1px solid var(--rule); counter-increment: project-stage; display: grid; gap: 1.8rem; grid-template-columns: 8.5rem minmax(0, 1fr); padding: 1.45rem 0; }
+.project-sequence li { border-top: 1px solid var(--rule); counter-increment: project-stage; display: grid; gap: 0.8rem 1rem; grid-template-columns: 3rem minmax(0, 1fr); padding: 1.3rem 0 1.45rem; }
 .project-sequence li:last-child { border-bottom: 1px solid var(--rule); }
 .project-sequence li::before { color: var(--blue); content: "0" counter(project-stage); font-size: 0.88rem; font-weight: 700; letter-spacing: 0.08em; padding-top: 0.18rem; }
-.project-sequence h3 { font-size: 1.28rem; margin-bottom: 0.45rem; }
-.project-sequence p { max-width: 48rem; }
+.project-step-content { min-width: 0; }
+.project-sequence h3 { font-size: 1.28rem; margin-bottom: 0.3rem; }
+.project-sequence p { max-width: 54rem; }
 
 .adaptation-section { background: var(--blue-pale); }
 .adaptation-list { display: grid; gap: 0 2.6rem; grid-template-columns: repeat(2, minmax(0, 1fr)); list-style: none; margin: 3.3rem 0 0; padding: 0; }
@@ -283,19 +284,17 @@ button:focus-visible {
 .tool-download-section .button:hover { background: var(--blue-pale); border-color: var(--blue-pale); color: var(--ink); }
 
 .examples-page-hero, .about-page-hero { padding: clamp(5.5rem, 10vw, 9rem) 0 clamp(4.5rem, 8vw, 7rem); }
-.examples-page-hero .lede, .about-page-hero .lede { font-size: clamp(1.3rem, 2.2vw, 1.7rem); line-height: 1.45; max-width: 54rem; }
+.examples-page-hero .lede, .about-page-hero .lede { font-size: clamp(1.3rem, 2.2vw, 1.7rem); line-height: 1.45; }
+.examples-page-hero .lede { max-width: 48rem; }
+.about-page-hero .lede { max-width: 54rem; }
 .examples-page-hero .text-action { margin-top: 2.2rem; white-space: normal; }
 
-.example-feature { border-top: 1px solid var(--rule); padding: clamp(5rem, 9vw, 7.5rem) 0; }
-.academic-example { background: var(--warm); }
+.example-feature { padding: clamp(3.25rem, 6vw, 5.5rem) 0; }
+.example-feature + .example-feature { padding-top: 0; }
+.example-card { background: var(--warm); border-bottom: 1px solid var(--rule); border-top: 1px solid var(--rule); padding: clamp(2.25rem, 5vw, 4rem); }
 .example-heading { max-width: 770px; }
 .example-heading h2 { font-size: clamp(2.1rem, 4vw, 3.5rem); }
 .example-heading > p { font-size: 1.16rem; line-height: 1.55; }
-.example-metadata { border-bottom: 1px solid var(--rule); border-top: 1px solid var(--rule); display: grid; gap: 1.2rem 2rem; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 3rem 0 0; padding: 1.1rem 0; }
-.example-metadata div { min-width: 0; }
-.example-metadata dt { color: var(--blue-dark); font-size: 0.73rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
-.example-metadata dd { color: var(--ink-soft); font-size: 0.91rem; line-height: 1.45; margin: 0.32rem 0 0; }
-
 .example-component-grid { display: grid; gap: 0 2.6rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 3.5rem; }
 .example-component { border-top: 3px solid var(--blue); min-width: 0; padding: 1.5rem 0 2.2rem; }
 .example-component h3 { font-size: clamp(1.45rem, 2.2vw, 2rem); margin-bottom: 0.8rem; }
@@ -345,7 +344,6 @@ button:focus-visible {
   .tool-artifact-preview { margin: 0 auto; max-width: 440px; width: 90%; }
   .workflow-notes, .implementation-levels { gap: 1.5rem; grid-template-columns: repeat(2, 1fr); }
   .implementation-levels article:last-child { grid-column: 2; }
-  .example-metadata { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .evaluation-layout { align-items: start; flex-direction: column; }
   .teaching-layout { align-items: start; flex-direction: column; }
   .page-footer .nav-footer { gap: 1.25rem; }
@@ -368,16 +366,15 @@ button:focus-visible {
   .workflow-notes, .implementation-levels, .example-previews, .resource-split, .tool-split-heading, .adaptation-list { grid-template-columns: 1fr; }
   .implementation-levels article:last-child { grid-column: auto; }
   .examples-page-hero, .about-page-hero { padding-top: 4.4rem; }
-  .example-component-grid, .example-metadata { grid-template-columns: 1fr; }
+  .example-component-grid { grid-template-columns: 1fr; }
   .example-vision, .example-pathway, .example-narrative { grid-column: auto; }
-  .example-metadata { gap: 0.9rem; }
   .closing-actions { align-items: stretch; flex-direction: column; }
   .about-closing .closing-actions { align-items: start; gap: 1rem; }
   .section-close { align-items: start; flex-direction: column; gap: 1rem; }
   .resource-split { gap: 2.2rem; }
   .component-layout { grid-template-columns: 1fr; }
   .component-vision, .component-pathway, .component-narrative { grid-column: auto; }
-  .project-sequence li { gap: 0.5rem; grid-template-columns: 1fr; }
+  .project-sequence li { gap: 0.65rem; grid-template-columns: 2.5rem minmax(0, 1fr); padding: 1.15rem 0; }
   .project-sequence li::before { padding-top: 0; }
   .page-footer .nav-footer { align-items: center; }
 }
