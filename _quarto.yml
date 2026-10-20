@@ -5,6 +5,7 @@ project:
     - index.qmd
     - tool.qmd
     - examples.qmd
+    - instruction.qmd
     - about.qmd
 
 website:
@@ -20,6 +21,8 @@ website:
         text: Tool
       - href: examples.qmd
         text: Examples
+      - href: instruction.qmd
+        text: Instruction
       - href: about.qmd
         text: About
   page-footer:

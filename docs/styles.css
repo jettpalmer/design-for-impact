@@ -333,6 +333,38 @@ button:focus-visible {
 .about-closing h2 { font-size: clamp(2rem, 3.8vw, 3.1rem); }
 .about-closing .closing-actions { gap: 1.5rem 2rem; }
 
+.instruction-page-hero { border-bottom: 1px solid var(--rule); padding: clamp(5.5rem, 10vw, 9rem) 0 clamp(4.5rem, 8vw, 7rem); }
+.instruction-page-hero .lede { font-size: clamp(1.3rem, 2.2vw, 1.7rem); line-height: 1.45; max-width: 53rem; }
+.instruction-opening { font-size: 1.05rem; line-height: 1.6; margin-top: 2rem; max-width: 46rem; }
+.instruction-section { border-bottom: 1px solid var(--rule); padding: clamp(4.5rem, 8vw, 6.5rem) 0; }
+.instruction-section-heading { max-width: 720px; }
+.instruction-section-heading h2 { font-size: clamp(2rem, 3.8vw, 3.1rem); }
+.instruction-section-heading p { font-size: 1.08rem; line-height: 1.6; }
+.instruction-sequence { display: grid; gap: 0; grid-template-columns: repeat(3, minmax(0, 1fr)); list-style: none; margin: 3.5rem 0 0; padding: 0; }
+.instruction-sequence li { border-left: 1px solid var(--rule); min-width: 0; padding: 0.15rem 1.65rem 0; }
+.instruction-sequence li:first-child { border-left: 0; padding-left: 0; }
+.instruction-sequence li:last-child { padding-right: 0; }
+.instruction-stage, .instruction-resource-number { color: var(--blue); font-size: 0.79rem; font-weight: 760; letter-spacing: 0.1em; line-height: 1.2; margin-bottom: 1.15rem; text-transform: uppercase; }
+.instruction-sequence h3 { font-size: 1.45rem; margin-bottom: 0.65rem; }
+.instruction-sequence p:last-child { font-size: 0.98rem; line-height: 1.58; }
+.instruction-materials-section { background: var(--warm); }
+.instruction-material-grid { display: grid; gap: 0 2.6rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 3.5rem; }
+.instruction-material-card { border-top: 3px solid var(--blue); display: flex; flex-direction: column; min-width: 0; padding: 1.45rem 0 2.25rem; }
+.instruction-material-card:nth-child(3) { border-top-color: #47779b; }
+.instruction-material-card:nth-child(4) { border-top-color: #608cab; }
+.instruction-material-card h3 { font-size: clamp(1.4rem, 2.2vw, 1.85rem); margin-bottom: 0.65rem; }
+.instruction-material-card > p:not(.instruction-resource-number) { font-size: 0.98rem; line-height: 1.58; max-width: 33rem; }
+.instruction-material-actions { margin-top: auto; padding-top: 1.5rem; }
+.instruction-material-actions > p { display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 0; }
+.instruction-material-actions .button { font-size: 0.88rem; padding: 0.68rem 0.85rem; }
+.instruction-share-section { background: var(--ink); color: #fff; padding: clamp(4.5rem, 8vw, 6.5rem) 0; }
+.instruction-share-section .page-shell { align-items: end; display: flex; flex-wrap: wrap; gap: 2rem 3rem; justify-content: space-between; }
+.instruction-share-section .page-shell > div { flex: 1 1 34rem; max-width: 700px; min-width: 0; }
+.instruction-share-section h2, .instruction-share-section p, .instruction-share-section a { color: #fff; }
+.instruction-share-section h2 { font-size: clamp(2rem, 4vw, 3.2rem); margin-bottom: 1rem; }
+.instruction-share-section p { color: #d6dfea; font-size: 1.1rem; }
+.instruction-share-section .text-action { flex: 0 0 auto; }
+
 .page-footer { background: #fff; border-top: 1px solid var(--rule); color: var(--ink-soft); font-size: 0.78rem; line-height: 1.45; padding: 2.5rem 1rem; text-align: center; }
 .page-footer .nav-footer { max-width: 1180px; }
 .page-footer a { color: var(--ink-soft); }
@@ -346,6 +378,12 @@ button:focus-visible {
   .implementation-levels article:last-child { grid-column: 2; }
   .evaluation-layout { align-items: start; flex-direction: column; }
   .teaching-layout { align-items: start; flex-direction: column; }
+  .instruction-sequence { gap: 1.5rem; grid-template-columns: 1fr; }
+  .instruction-sequence li, .instruction-sequence li:first-child, .instruction-sequence li:last-child { border-left: 0; border-top: 1px solid var(--rule); padding: 1.2rem 0 0; }
+  .instruction-sequence li:first-child { border-top: 0; padding-top: 0; }
+  .instruction-material-grid { gap: 0 1.8rem; }
+  .instruction-share-section .page-shell { align-items: start; flex-direction: column; }
+  .instruction-share-section .page-shell > div { flex: 0 1 auto; }
   .page-footer .nav-footer { gap: 1.25rem; }
 }
 
@@ -364,6 +402,7 @@ button:focus-visible {
   .workflow-type { margin-top: 0.45rem; }
   .flow-arrow { display: none; }
   .workflow-notes, .implementation-levels, .example-previews, .resource-split, .tool-split-heading, .adaptation-list { grid-template-columns: 1fr; }
+  .instruction-material-grid { grid-template-columns: 1fr; }
   .implementation-levels article:last-child { grid-column: auto; }
   .examples-page-hero, .about-page-hero { padding-top: 4.4rem; }
   .example-component-grid { grid-template-columns: 1fr; }

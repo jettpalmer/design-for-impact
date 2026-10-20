@@ -228,7 +228,7 @@ Resources for applying and teaching Design For Impact.
 
 <p>Help students connect statistical decisions to collaboration, stakeholder needs, and the communication of evidence.</p>
 
-<a class="text-action" href="tool.qmd#instructor-resources">Explore Instructor Resources [→]{aria-hidden="true"}</a>
+<a class="text-action" href="instruction.qmd">Explore Instructional Materials [→]{aria-hidden="true"}</a>
 
 </article>
 :::

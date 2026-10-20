@@ -1,0 +1,118 @@
+---
+title: "Instruction"
+---
+
+<section class="instruction-page-hero" aria-labelledby="instruction-page-heading">
+
+::: page-shell
+
+<h1 id="instruction-page-heading">Instruction</h1>
+
+<p class="lede">Resources for teaching impact-centered statistical collaboration in consulting, statistics, and data science courses.</p>
+
+<p class="instruction-opening">Instructors are welcome to adapt these materials to their own students, course structure, and teaching context.</p>
+
+:::
+
+</section>
+
+<section class="instruction-section" aria-labelledby="teaching-sequence-heading">
+
+::: page-shell
+
+<div class="instruction-section-heading">
+<h2 id="teaching-sequence-heading">Suggested Teaching Sequence</h2>
+<p>A short pre-read, a focused class session, and practical follow-through can help students connect statistical work to the impact it is meant to enable.</p>
+</div>
+
+<ol class="instruction-sequence">
+<li>
+<p class="instruction-stage">Before Class</p>
+<h3>Set up the conversation.</h3>
+<p>Assign the Student Pre-Read and ask students to reflect on a past or upcoming project.</p>
+</li>
+<li>
+<p class="instruction-stage">During Class</p>
+<h3>Make the model concrete.</h3>
+<p>Introduce the five components, work through a complete example, and give students time to practice applying the concepts.</p>
+</li>
+<li>
+<p class="instruction-stage">After Class</p>
+<h3>Put it into practice.</h3>
+<p>Encourage students to experiment in their collaborations and reflect on how their analytical work translates into impact.</p>
+</li>
+</ol>
+
+:::
+
+</section>
+
+<section class="instruction-section instruction-materials-section" aria-labelledby="materials-heading">
+
+::: page-shell
+
+<div class="instruction-section-heading">
+<h2 id="materials-heading">Instructional Materials</h2>
+<p>Use these resources together, or select the pieces that fit your course.</p>
+</div>
+
+<div class="instruction-material-grid">
+
+<article class="instruction-material-card">
+<p class="instruction-resource-number">01</p>
+<h3>Student Pre-Read</h3>
+<p>A short introduction to Design For Impact, its principles, components, and a worked example.</p>
+<div class="instruction-material-actions">
+<a class="button button-secondary" href="files/design-for-impact-student-pre-read.pdf" download>Download PDF</a>
+<a class="button button-secondary" href="files/design-for-impact-student-pre-read.docx" download>Download Word</a>
+</div>
+</article>
+
+<article class="instruction-material-card">
+<p class="instruction-resource-number">02</p>
+<h3>Teaching Slides</h3>
+<p>An editable presentation that instructors can adapt for their own classes.</p>
+<div class="instruction-material-actions">
+<a class="button button-secondary" href="https://docs.google.com/presentation/d/1DUpueARumVqqj9mihKGJHMusfLKZYxqHninbipWP_OU/edit?usp=sharing" target="_blank" rel="noopener">View / Make a Copy</a>
+</div>
+</article>
+
+<article class="instruction-material-card">
+<p class="instruction-resource-number">03</p>
+<h3>Sample Lesson Plan</h3>
+<p>A ready-to-use 50-minute lesson with objectives, suggested timings, classroom activities, and an optional extension.</p>
+<div class="instruction-material-actions">
+<a class="button button-secondary" href="files/design-for-impact-sample-lesson-plan.pdf" download>Download PDF</a>
+<a class="button button-secondary" href="files/design-for-impact-sample-lesson-plan.docx" download>Download Word</a>
+</div>
+</article>
+
+<article class="instruction-material-card">
+<p class="instruction-resource-number">04</p>
+<h3>Tool and Implementation Guide</h3>
+<p>The one-page blank artifact and companion reference with definitions, prompts, and guidance for the five components.</p>
+<div class="instruction-material-actions">
+<a class="button button-secondary" href="files/design-for-impact-tool-and-guide.pdf" target="_blank" rel="noopener">View Tool + Guide</a>
+</div>
+</article>
+
+</div>
+
+:::
+
+</section>
+
+<section class="instruction-share-section" aria-labelledby="share-experience-heading">
+
+::: page-shell
+
+<div>
+<h2 id="share-experience-heading">Share Your Experience</h2>
+<p>Have you taught Design For Impact or adapted these materials for your course? I’d love to hear about your experience.</p>
+</div>
+
+<a class="text-action" href="mailto:jettpalmer.io@gmail.com">Email me [→]{aria-hidden="true"}</a>
+
+:::
+
+</section>

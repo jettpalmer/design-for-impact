@@ -57,7 +57,6 @@ title: "About"
 <ul class="forthcoming-list">
 <li>Master’s thesis on the development and evaluation of Design For Impact</li>
 <li>Journal manuscript for the <em>Journal of Statistics and Data Science Education</em></li>
-<li>Design For Impact short course and instructional materials</li>
 </ul>
 
 <p class="about-acknowledgment">The development of Design For Impact was supported by Heather Smith and Eric Vance.</p>

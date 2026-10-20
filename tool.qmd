@@ -208,10 +208,10 @@ title: "The Tool"
 <div>
 <h2 id="instructor-heading">Teaching Design For Impact</h2>
 
-<p>Instructor materials are in development, including presentation materials and a complete lesson or workshop plan. In the meantime, instructors may use the Tool + Guide and completed examples to introduce impact-centered statistical collaboration.</p>
+<p>Teaching resources include a student pre-read, editable slides, a sample lesson plan, and the current Tool and Implementation Guide.</p>
 </div>
 
-<a class="text-action" href="examples.qmd">Explore the Examples [→]{aria-hidden="true"}</a>
+<a class="text-action" href="instruction.qmd">View Instructional Materials [→]{aria-hidden="true"}</a>
 </div>
 :::
 
