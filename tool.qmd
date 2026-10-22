@@ -79,7 +79,7 @@ title: "The Tool"
 <li>Which study design, dataset, model, or visualization best meets those needs?</li>
 <li>How does the planned analysis connect back to the intended impact?</li>
 </ul>
-<p class="iteration-note"><strong>If the pathway changes substantially, document what was learned in Narrative and begin a new version of the tool.</strong></p>
+<p class="iteration-note"><strong>If the pathway changes substantially, document what was learned in Narrative and begin a new version of the tool.</strong> <a href="examples.qmd#summer-newsletter-layout">See a four-version example [→]{aria-hidden="true"}</a></p>
 </article>
 
 <article class="component-panel component-narrative">
