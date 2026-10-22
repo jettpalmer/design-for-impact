@@ -306,35 +306,9 @@ button:focus-visible {
 .example-pathway { border-top-color: #769fb9; }
 .example-narrative { border-bottom: 1px solid var(--rule); border-top-color: #8db1c5; }
 .example-editorial-note { border-left: 3px solid var(--blue); color: var(--ink) !important; font-size: 1rem; line-height: 1.55; margin-top: 2.3rem; max-width: 64rem; padding-left: 1.15rem; }
-
-.versioning-feature { padding-top: 0; }
-.versioning-card { background: var(--paper); border-bottom: 1px solid var(--rule); border-top: 3px solid var(--blue); padding: clamp(2.25rem, 5vw, 4rem); }
-.versioning-heading { max-width: 790px; }
-.versioning-kicker, .version-number, .versioning-context-label, .versioning-detail-label { color: var(--blue-dark) !important; font-size: 0.79rem; font-weight: 760; letter-spacing: 0.1em; line-height: 1.2; text-transform: uppercase; }
-.versioning-kicker { margin-bottom: 1rem; }
-.versioning-heading h2 { font-size: clamp(2.1rem, 4vw, 3.5rem); }
-.versioning-heading > p:last-child { font-size: 1.16rem; line-height: 1.55; }
-.versioning-shared-context { background: var(--blue-pale); border-bottom: 1px solid var(--rule); border-top: 1px solid var(--rule-dark); margin-top: 3.35rem; padding: 1.45rem 1.5rem 1.7rem; }
-.versioning-shared-context h3 { font-size: 1.25rem; margin-bottom: 1.35rem; }
-.versioning-context-grid { display: grid; gap: 1.5rem 2.4rem; grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.versioning-context-grid > div { border-left: 2px solid var(--blue); min-width: 0; padding-left: 0.85rem; }
-.versioning-context-label { margin-bottom: 0.55rem; }
-.versioning-context-grid p:last-child { font-size: 0.94rem; line-height: 1.55; }
-.versioning-progression { margin-top: 3.5rem; }
-.versioning-progression-heading { align-items: end; display: flex; flex-wrap: wrap; gap: 0.9rem 2rem; justify-content: space-between; }
-.versioning-progression-heading h3 { font-size: clamp(1.55rem, 2.5vw, 2.1rem); margin: 0; }
-.versioning-progression-heading > p { font-size: 0.96rem; max-width: 31rem; }
-.versioning-grid { counter-reset: version; display: grid; gap: 1.5rem 2.6rem; grid-template-columns: repeat(2, minmax(0, 1fr)); list-style: none; margin: 2rem 0 0; padding: 0; }
-.versioning-step { border-top: 1px solid var(--rule-dark); counter-increment: version; min-width: 0; padding-top: 1.15rem; position: relative; }
-.versioning-step::before { background: var(--blue); color: #fff; content: "0" counter(version); display: grid; font-size: 0.75rem; font-weight: 760; height: 1.7rem; letter-spacing: 0.06em; place-items: center; position: absolute; right: 0; top: 1.05rem; width: 1.7rem; }
-.versioning-step-heading { min-height: 4.6rem; padding-right: 2.35rem; }
-.version-number { margin-bottom: 0.55rem; }
-.versioning-step h4 { color: var(--ink); font-size: 1.22rem; font-weight: 650; letter-spacing: -0.025em; line-height: 1.15; margin: 0; }
-.versioning-detail { border-top: 1px solid var(--rule); margin-top: 1.15rem; padding-top: 0.9rem; }
-.versioning-detail-label { margin-bottom: 0.5rem; }
-.versioning-detail-label span { font-size: 0.95em; letter-spacing: 0; }
-.versioning-detail > p:last-child { font-size: 0.94rem; line-height: 1.58; }
-.versioning-takeaway { border-left: 3px solid var(--blue); color: var(--ink) !important; font-size: 1rem; line-height: 1.55; margin-top: 2.8rem; max-width: 65rem; padding-left: 1.15rem; }
+.example-heading .button { margin-top: 1.75rem; }
+.example-version-list { color: var(--ink-soft); line-height: 1.58; margin: 0.9rem 0 0; max-width: 49rem; padding-left: 1.25rem; }
+.example-version-list li + li { margin-top: 0.65rem; }
 
 .examples-closing { background: var(--ink); padding: clamp(4.5rem, 8vw, 6.5rem) 0; }
 .examples-closing h2 { color: #fff; font-size: clamp(2rem, 4vw, 3.6rem); max-width: 760px; }
@@ -412,7 +386,6 @@ button:focus-visible {
   .instruction-sequence li, .instruction-sequence li:first-child, .instruction-sequence li:last-child { border-left: 0; border-top: 1px solid var(--rule); padding: 1.2rem 0 0; }
   .instruction-sequence li:first-child { border-top: 0; padding-top: 0; }
   .instruction-material-grid { gap: 0 1.8rem; }
-  .versioning-context-grid { gap: 1.2rem; }
   .instruction-share-section .page-shell { align-items: start; flex-direction: column; }
   .instruction-share-section .page-shell > div { flex: 0 1 auto; }
   .page-footer .nav-footer { gap: 1.25rem; }
@@ -432,16 +405,13 @@ button:focus-visible {
   .workflow-flow li:last-child { border-bottom: 0; }
   .workflow-type { margin-top: 0.45rem; }
   .flow-arrow { display: none; }
-  .workflow-notes, .implementation-levels, .example-previews, .resource-split, .tool-split-heading, .adaptation-list, .versioning-context-grid, .versioning-grid { grid-template-columns: 1fr; }
+  .workflow-notes, .implementation-levels, .example-previews, .resource-split, .tool-split-heading, .adaptation-list { grid-template-columns: 1fr; }
   .instruction-material-grid { grid-template-columns: 1fr; }
   .instruction-material-card:nth-child(5) { border-bottom: 0; grid-column: auto; }
   .implementation-levels article:last-child { grid-column: auto; }
   .examples-page-hero, .about-page-hero { padding-top: 4.4rem; }
   .example-component-grid { grid-template-columns: 1fr; }
   .example-vision, .example-pathway, .example-narrative { grid-column: auto; }
-  .versioning-shared-context { padding: 1.25rem; }
-  .versioning-progression-heading { align-items: start; flex-direction: column; }
-  .versioning-step-heading { min-height: auto; }
   .closing-actions { align-items: stretch; flex-direction: column; }
   .about-closing .closing-actions { align-items: start; gap: 1rem; }
   .section-close { align-items: start; flex-direction: column; gap: 1rem; }

@@ -70,134 +70,6 @@ title: "Examples"
 
 </section>
 
-<section class="example-feature versioning-feature" id="summer-newsletter-layout" aria-labelledby="newsletter-heading">
-
-::: page-shell
-
-<article class="versioning-card">
-
-<div class="versioning-heading">
-<p class="versioning-kicker">Versioning in practice</p>
-
-<h2 id="newsletter-heading">Summer Newsletter Layout</h2>
-
-<p>A sales director and senior data scientist need to decide which newsletter layout will increase purchases. Rather than treating the first analysis as the final answer, they use each version to record what changed, why it changed, and what comes next.</p>
-</div>
-
-<div class="versioning-shared-context" aria-labelledby="newsletter-context-heading">
-<h3 id="newsletter-context-heading">What stays constant</h3>
-
-<div class="versioning-context-grid">
-<div>
-<p class="versioning-context-label">Vision</p>
-<p>Become customers’ preferred brand for durable outdoor clothing.</p>
-</div>
-
-<div>
-<p class="versioning-context-label">Impact</p>
-<p>Help the sales director choose newsletter characteristics that increase purchases.</p>
-</div>
-
-<div>
-<p class="versioning-context-label">Partnership</p>
-<p>Share an initial recommendation with marketing by April 1, then deliver a final recommendation by June 20.</p>
-</div>
-</div>
-</div>
-
-<div class="versioning-progression" aria-labelledby="newsletter-progression-heading">
-<div class="versioning-progression-heading">
-<h3 id="newsletter-progression-heading">Four versions, one decision</h3>
-<p>The Analysis Pathway and Narrative evolve as the team learns more.</p>
-</div>
-
-<ol class="versioning-grid">
-<li class="versioning-step">
-<article>
-<header class="versioning-step-heading">
-<p class="version-number">Version 1</p>
-<h4>Start with the available evidence</h4>
-</header>
-
-<div class="versioning-detail">
-<p class="versioning-detail-label">Analysis Pathway <span>Q<sub>2</sub></span></p>
-<p>Compare purchase rates across previous newsletter layouts to identify characteristics worth retaining.</p>
-</div>
-
-<div class="versioning-detail">
-<p class="versioning-detail-label">Narrative <span>Q<sub>3</sub></span></p>
-<p>Newsletters with prominent product images had higher purchase rates, but primarily reached returning customers. Account for audience differences before recommending a layout.</p>
-</div>
-</article>
-</li>
-
-<li class="versioning-step">
-<article>
-<header class="versioning-step-heading">
-<p class="version-number">Version 2</p>
-<h4>Turn a limitation into a better design</h4>
-</header>
-
-<div class="versioning-detail">
-<p class="versioning-detail-label">Analysis Pathway <span>Q<sub>2</sub></span></p>
-<p>Model purchase probability using newsletter characteristics and customer purchase history for the April 1 recommendation.</p>
-</div>
-
-<div class="versioning-detail">
-<p class="versioning-detail-label">Narrative <span>Q<sub>3</sub></span></p>
-<p>Customer groups received substantially different layouts, limiting a reliable comparison. The team recommends a randomized test and selects two layouts that differ only in product-image prominence.</p>
-</div>
-</article>
-</li>
-
-<li class="versioning-step">
-<article>
-<header class="versioning-step-heading">
-<p class="version-number">Version 3</p>
-<h4>Keep learning when evidence is imprecise</h4>
-</header>
-
-<div class="versioning-detail">
-<p class="versioning-detail-label">Analysis Pathway <span>Q<sub>2</sub></span></p>
-<p>Randomly assign customers to the two layouts and compare purchase rates to help the sales director choose an image treatment.</p>
-</div>
-
-<div class="versioning-detail">
-<p class="versioning-detail-label">Narrative <span>Q<sub>3</sub></span></p>
-<p>Early results are too imprecise to distinguish a worthwhile improvement from little or no benefit. Marketing and sales agree to continue testing across additional sends.</p>
-</div>
-</article>
-</li>
-
-<li class="versioning-step">
-<article>
-<header class="versioning-step-heading">
-<p class="version-number">Version 4</p>
-<h4>Move from evidence to action</h4>
-</header>
-
-<div class="versioning-detail">
-<p class="versioning-detail-label">Analysis Pathway <span>Q<sub>2</sub></span></p>
-<p>Continue randomized testing across additional sends, accounting for repeat recipients and send dates, to estimate the purchase-rate difference by June 20.</p>
-</div>
-
-<div class="versioning-detail">
-<p class="versioning-detail-label">Narrative <span>Q<sub>3</sub></span></p>
-<p>The expanded test supports a worthwhile increase in purchases with prominent product images. Sales approves the recommendation, and marketing ships the new summer layout.</p>
-</div>
-</article>
-</li>
-</ol>
-</div>
-
-<p class="versioning-takeaway"><strong>What this illustrates:</strong> Versioning preserves the reasoning behind a changed Analysis Pathway. The team can see how a promising observation became a defensible test, then an implemented decision.</p>
-
-</article>
-
-:::
-
-</section>
-
 <section class="example-feature academic-example" id="environmental-attitudes-and-behavior" aria-labelledby="environmental-heading">
 
 ::: page-shell
@@ -245,6 +117,72 @@ title: "Examples"
 </div>
 
 <p class="example-editorial-note"><strong>What this illustrates:</strong> Academic impact may involve contributions to a body of knowledge, decisions about what to study next, and the design of future interventions rather than an immediate organizational outcome.</p>
+
+</article>
+
+:::
+
+</section>
+
+<section class="example-feature" id="summer-newsletter-layout" aria-labelledby="newsletter-heading">
+
+::: page-shell
+
+<article class="example-card">
+
+<div class="example-heading">
+<h2 id="newsletter-heading">Summer Newsletter Layout</h2>
+
+<p>A sales director and senior data scientist need to decide which newsletter layout will increase purchases. The team revisits the tool across four versions to record what changed, why it changed, and what comes next.</p>
+
+<a class="button button-secondary" href="files/design-for-impact-versioning-example.pdf" target="_blank" rel="noopener">View all four tool versions (PDF)</a>
+</div>
+
+<div class="example-component-grid" aria-label="Summer Newsletter Layout components">
+
+<article class="example-component example-vision">
+<h3>Vision <span class="component-stage">— Q<sub>1</sub></span></h3>
+
+<p>Become customers’ preferred brand for durable outdoor clothing.</p>
+</article>
+
+<article class="example-component example-impact">
+<h3>Impact <span class="component-stage">— Q<sub>1</sub></span></h3>
+
+<p>Help the sales director choose newsletter characteristics that increase purchases.</p>
+</article>
+
+<article class="example-component example-partnership">
+<h3>Partnership <span class="component-stage">— Q<sub>1</sub></span></h3>
+
+<p>Share an initial recommendation with marketing by April 1, then deliver a final recommendation by June 20.</p>
+</article>
+
+<article class="example-component example-pathway">
+<h3>Analysis Pathway <span class="component-stage">— Q<sub>2</sub></span></h3>
+
+<ol class="example-version-list">
+<li><strong>Version 1:</strong> Compare purchase rates across previous newsletter layouts to identify characteristics worth retaining.</li>
+<li><strong>Version 2:</strong> Model purchase probability using newsletter characteristics and customer purchase history.</li>
+<li><strong>Version 3:</strong> Randomly assign customers to two layouts and compare purchase rates.</li>
+<li><strong>Version 4:</strong> Continue randomized testing across additional sends, accounting for repeat recipients and send dates.</li>
+</ol>
+</article>
+
+<article class="example-component example-narrative">
+<h3>Narrative <span class="component-stage">— Q<sub>3</sub></span></h3>
+
+<ol class="example-version-list">
+<li><strong>Version 1:</strong> Prominent product images appear promising, but audience differences prevent a recommendation.</li>
+<li><strong>Version 2:</strong> The team identifies a reliable-comparison problem and recommends a randomized test.</li>
+<li><strong>Version 3:</strong> Early results are too imprecise, so marketing and sales agree to continue testing.</li>
+<li><strong>Version 4:</strong> The expanded test supports prominent product images; sales approves the recommendation and marketing ships the new summer layout.</li>
+</ol>
+</article>
+
+</div>
+
+<p class="example-editorial-note"><strong>What this illustrates:</strong> Versioning preserves the reasoning behind a changed Analysis Pathway. A promising observation becomes a defensible test, then an implemented decision.</p>
 
 </article>
 
