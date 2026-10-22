@@ -352,6 +352,7 @@ button:focus-visible {
 .instruction-material-card { border-top: 3px solid var(--blue); display: flex; flex-direction: column; min-width: 0; padding: 1.45rem 0 2.25rem; }
 .instruction-material-card:nth-child(3) { border-top-color: #47779b; }
 .instruction-material-card:nth-child(4) { border-top-color: #608cab; }
+.instruction-material-card:nth-child(5) { border-bottom: 1px solid var(--rule); border-top-color: #769fb9; grid-column: 1 / -1; }
 .instruction-material-card h3 { font-size: clamp(1.4rem, 2.2vw, 1.85rem); margin-bottom: 0.65rem; }
 .instruction-material-card > p:not(.instruction-resource-number) { font-size: 0.98rem; line-height: 1.58; max-width: 33rem; }
 .instruction-material-actions { margin-top: auto; padding-top: 1.5rem; }
@@ -403,6 +404,7 @@ button:focus-visible {
   .flow-arrow { display: none; }
   .workflow-notes, .implementation-levels, .example-previews, .resource-split, .tool-split-heading, .adaptation-list { grid-template-columns: 1fr; }
   .instruction-material-grid { grid-template-columns: 1fr; }
+  .instruction-material-card:nth-child(5) { border-bottom: 0; grid-column: auto; }
   .implementation-levels article:last-child { grid-column: auto; }
   .examples-page-hero, .about-page-hero { padding-top: 4.4rem; }
   .example-component-grid { grid-template-columns: 1fr; }
