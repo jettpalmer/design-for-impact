@@ -55,8 +55,8 @@ title: "About"
 <h2 id="forthcoming-heading">Forthcoming</h2>
 
 <ul class="forthcoming-list">
-<li>Master’s thesis on the development and evaluation of Design For Impact</li>
-<li>Journal manuscript for the <em>Journal of Statistics and Data Science Education</em></li>
+<li><a href="https://jettpalmer.github.io/design-for-impact/">Read the master’s thesis on Jett’s website</a></li>
+<li>Journal manuscript</li>
 </ul>
 
 <p class="about-acknowledgment">The development of Design For Impact was supported by Heather Smith and Eric Vance.</p>
