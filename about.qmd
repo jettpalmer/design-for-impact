@@ -41,25 +41,13 @@ title: "About"
 <div class="about-copy">
 <p>Jett Palmer is a statistics researcher and consultant whose work focuses on statistical collaboration, organizational problem solving, and translating evidence into action. He created Design For Impact as part of his graduate research at Cal Poly, San Luis Obispo.</p>
 
-<a class="text-action" href="https://jettpalmer.github.io">Visit Jett’s website [→]{aria-hidden="true"}</a>
-</div>
+<a class="text-action" href="https://jettpalmer.github.io">Visit Jett’s Website [→]{aria-hidden="true"}</a>
 
-:::
-
-</section>
-
-<section class="about-section forthcoming-section" aria-labelledby="forthcoming-heading">
-
-::: page-shell
-
-<h2 id="forthcoming-heading">Forthcoming</h2>
-
-<ul class="forthcoming-list">
-<li><a href="https://jettpalmer.github.io/design-for-impact/">Read the master’s thesis on Jett’s website</a></li>
-<li>Journal manuscript</li>
-</ul>
+<a class="text-action" href="https://jettpalmer.github.io/work/thesis/design-for-impact.html">Read The Master's Thesis [→]{aria-hidden="true"}</a>
 
 <p class="about-acknowledgment">The development of Design For Impact was supported by Heather Smith and Eric Vance.</p>
+
+</div>
 
 :::
 
